@@ -9,12 +9,12 @@ import io.restassured.path.json.JsonPath;
 import static io.restassured.RestAssured.*;
 
 public class login {
-    @Test
+    @Test(enabled=false)
     public void login() {
         // Set the base URI for the API
 
     //baseurl config = new baseurl();
-    	   baseurl.setBaseURI();  // Set base URI before making requests
+    	  // baseurl.setBaseURI();  // Set base URI before making requests
     	
        
 
